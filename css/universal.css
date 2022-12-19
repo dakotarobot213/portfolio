@@ -1,1 +1,49 @@
 @import url(./reset.css);
+
+@font-face {
+	font-family: 'nasalization';
+	src: url(../typefaces/nasalization-rg.otf);
+}
+
+@media screen and (max-width: 300px) {
+	.mainNav > a {
+		display: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	color: white;
+	font-size: 240px;
+}
+
+a {
+	font-style: bold;
+}
+
+body {
+	background-color: #0e1454;
+}
+
+iframe {
+	border: 50px, double, #b5af00;
+}
+
+.NASAFont {
+	font-family: nasalization;
+}
+
+.mainNav {
+	color: #182291;
+	display: flex;
+}
+
+#mainNav > button > img {
+	width: 50px;
+}
