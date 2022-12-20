@@ -18,23 +18,25 @@
 		<title>Dakota Adams' portfolio</title>
 	</head>
 	<body>
-		<aside>
-			<h1 class="NASAFont">Dakota Adams</h1>
-		</aside>
-		<button
-			name="test"
-			onclick="CyclePage()"
+		<section
+			id="infoCard"
+			name="Simple contact section"
 		>
-			Test
-		</button>
-		<iframe id="iframe2"></iframe>
+			<img
+				id="portfolioPicture"
+				src="./media/images/pictureOfMe.png"
+				alt="Picture of Dakota Adams, this portfolio's creator"
+			/>
+			<h1 id="nameFormatting">Dakota Adams</h1>
+			<p>Welcome to my portfolio!</p>
+			<div id="contacts">
+				<icon
+					name="Email"
+					onclick="email"
+				></icon>
+				<icon></icon>
+			</div>
+		</section>
 	</body>
-	<script>
-		window.caches.delete(true);
-		function CyclePage(url) {
-			document
-				.getElementById('iframe2')
-				.setAttribute('src', './pages/hello.html');
-		}
-	</script>
+	<script></script>
 </html>

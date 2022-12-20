@@ -18,32 +18,11 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+button {
 	color: white;
-	font-size: 240px;
-}
-
-a {
-	font-style: bold;
 }
 
 body {
 	background-color: #0e1454;
-}
-
-iframe {
-	border: 50px, double, #b5af00;
-}
-
-.NASAFont {
-	font-family: nasalization;
-}
-
-.mainNav {
-	color: #182291;
-	display: flex;
-}
-
-#mainNav > button > img {
-	width: 50px;
 }

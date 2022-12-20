@@ -1,1 +1,39 @@
 @import url(./universal.css);
+
+#infoCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	height: 500px;
+	width: 350px;
+	background: #182291;
+}
+
+#infoCard > * {
+	text-align: center;
+	width: 200px;
+}
+
+#contacts {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#portfolioPicture {
+	border-radius: 55%;
+	border: 8px double #b5af00;
+}
+
+#nameFormatting {
+	font: 1.5em nasalization;
+}
+
+.NASAFont {
+	font-family: nasalization;
+}
+
+iframe {
+	border: 50px, double, #b5af00;
+}
